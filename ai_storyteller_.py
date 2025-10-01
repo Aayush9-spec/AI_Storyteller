@@ -13,7 +13,7 @@ Foundation and Gemini basics
 
 # Commented out IPython magic to ensure Python compatibility.
 # @title
-# %env GEMINI_API_KEY=AIzaSyA_rIXRq_qjAsaL_M2z5d20T4MvdAKfSgo
+# %env GEMINI_API_KEY=os.getenv("GOOGLE_API_KEY")
 
 !pip install -q transformers pillow google-generativeai
 
@@ -286,7 +286,7 @@ for label,options in voices.items():
 # #Authentication
 # NGROK_AUTH_TOKEN = "32hLm5H2cwiE9gSy984wwfCsViA_5LvdDm5jh5UgnkYCgrKFz"
 # BACKGROUND_IMAGE_URL = "https://i.postimg.cc/RFBqmzjg/i5.jpg"
-# GEMINI_API_KEY = "AIzaSyA_rIXRq_qjAsaL_M2z5d20T4MvdAKfSgo"
+# GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # 
 # 
 # #Streamlit Page Setup/Style
