@@ -284,7 +284,7 @@ for label,options in voices.items():
 # 
 # 
 # #Authentication
-# NGROK_AUTH_TOKEN = "32hLm5H2cwiE9gSy984wwfCsViA_5LvdDm5jh5UgnkYCgrKFz"
+# NGROK_AUTH_TOKEN = os.getenv("NGROK_AUTH_TOKEN")
 # BACKGROUND_IMAGE_URL = "https://i.postimg.cc/RFBqmzjg/i5.jpg"
 # GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # 
