@@ -267,22 +267,22 @@ for label,options in voices.items():
 """Day 5 :"""
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%writefile app_streamlit_story.py
-# import streamlit as st  #Web app framwork
-# from PIL import Image
-# import io, requests, os
-# import textwrap
-# from gtts import gTTS   #Translate text to speech
-# from transformers import BlipProcessor, BlipForConditionalGeneration
-# from reportlab.pdfgen import canvas
-# from reportlab.lib.pagesizes import A4
-# from reportlab.lib.utils import ImageReader
-# from pyngrok import ngrok
-# import tempfile
-# import google.generativeai as genai
-# import torch
-# 
-# 
+%%writefile app_streamlit_story.py
+import streamlit as st  #Web app framwork
+from PIL import Image
+import io, requests, os
+import textwrap
+from gtts import gTTS   #Translate text to speech
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.utils import ImageReader
+from pyngrok import ngrok
+import tempfile
+import google.generativeai as genai
+import torch
+ 
+
 # #Authentication
 # NGROK_AUTH_TOKEN = os.getenv("NGROK_AUTH_TOKEN")
 # BACKGROUND_IMAGE_URL = "https://i.postimg.cc/RFBqmzjg/i5.jpg"
